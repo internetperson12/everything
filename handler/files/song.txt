@@ -1,4 +1,6 @@
 [Intro]
+#commented out message of song.
+#use # to comment things out.
 Robbie: “Are you, uh, a real villain?”
 Bobbie: “Well, uh, technically... nah.”
 Robbie: “Have you ever caught a good guy, like, uh, like a real superhero?”
@@ -24,6 +26,7 @@ Be careful not to make a sound
 (Shh)
 (No, don't touch that!)
 
+#still an example
 [Hook]
 We are Number One
 Hey!
@@ -54,3 +57,4 @@ Ba-ba-biddly-ba-ba-ba-ba, ba-ba-ba-ba-ba-ba-ba
 We are Number One
 Hey!
 Hey!
+#song taken from https://genius.com/Lazy-town-we-are-number-one-lyrics
