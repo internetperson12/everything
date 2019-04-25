@@ -12,7 +12,8 @@ if not Path("./files/song.txt").is_file():
 else:
 	with open("./files/song.txt") as song:
 		for line in song:
-			print(line)
+			if not line.startswith("#"):
+				print(line)
 
 
 	print('Finished! Waiting 30 seconds before ending.')
