@@ -3,7 +3,6 @@ from pathlib import Path
 import sys
 import os
 import time
-import keyboard
 import importlib
 if not Path("./token.txt").is_file():
 	print("No token file found. Creating\n\nPlease relaunch bot")
