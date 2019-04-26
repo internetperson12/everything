@@ -30,17 +30,8 @@ with open("prefix.txt", 'r') as prefix:
 		sys.exit(0)
 	for line in prefix:
 		prefix = line
-print("making")
+		
 client = discord.Client()
-print("made")
-#try:
-
-print("ran")
-"""except:
-	print("Invalid token provided.\n\nExiting in 3 seconds")
-	time.sleep(3)
-	sys.exit(0)"""
-
 
 
 @client.event
