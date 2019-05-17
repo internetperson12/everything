@@ -1,10 +1,13 @@
 import time
 class timer:
-	def __init__(self): # Init function. Runs when you create a timer
+	def __init__(self, run=False): # Pass True to timer to auto-start
 		self.ms = 0
 		self.stx = None
 		self.running = False
 		self.endtime = 0.00
+		if run == True:
+			self.start()
+
 
 	def start(self): # Start a timer. | Returns nothing
 		self.running = True
@@ -28,16 +31,14 @@ class timer:
 	def convert(time): # Takes time in seconds and converts to minutes. | Returns: Time in Minutes 
 
 		"""Pair with <timer>.gettime() for best result. 
-
 		EX:
-
 		Clock = timer()
 		Clock.start()
 		print( Clock.convert(Clock.gettime()) ) // 0.00000000
-
 		time.sleep(60)
-
 		print( Clock.convert(Clock.gettime()) ) // 1.0000000"""
+
+
 		if not time > 0:
 			return None
 		minutes = time / 60
